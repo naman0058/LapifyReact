@@ -1,0 +1,77 @@
+@media all and (min-width: 480px) {
+  .Login {
+    padding: 60px 0;
+  }
+
+  .Login form {
+    margin: 0 auto;
+    max-width: 320px;
+  }
+}
+
+.button{
+    margin-top: 50px;
+    
+}
+
+.box{
+  
+    background-color:whitesmoke;
+    width:100%px;
+    height: 800px;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 10px 10px 12px rgba(0,0,0,0.1);
+    transition: 0.3s ease-in-out;
+    position: relative;
+    justify-content: center;
+    display: grid;
+
+}
+
+/*/////////////OTP////////// */
+
+.main-padd {
+  border-radius: 4px;
+  background: #3a1b49;
+  margin-top: 20px;
+  padding: 10px 30px;
+}
+
+@media screen and (max-width:1081px){
+  .otp-inputs {
+    margin:0 0 30px!important;
+  }
+}
+
+.otp-text {
+  color: #fff;
+  font-size: 25px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.otp-inputs {
+  margin: 0 100px 30px;
+  text-align: center;
+}
+
+.btn-custom, .btn-custom:hover, .btn-custom:active,  .btn-custom:focus {
+  background: #e3a700;
+  color: #fff;
+}
+
+.btn-center {
+  text-align: center;
+}
+
+.custom-input-otp {
+  width: 35px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

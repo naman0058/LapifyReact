@@ -1,0 +1,77 @@
+.box{
+  background-color:whitesmoke;
+  width: 100%;
+  border-radius:30px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: ease-in-out;
+  margin: 10px;
+  box-shadow: "0px 10px 12px rgba(0,0,0,0.1)";
+}
+.img-fluid:hover{
+  box-shadow:'0px 30px 18px -8px rgba(0,0,0,0.1)';
+  transform:scale(1.05, 1.05)
+}
+/* style={{
+                    backgroundColor: "whitesmoke", width: 1400, height: 500, margin: 20,
+                    borderRadius: 40, transition: "ease-in-out", boxShadow: "0px 10px 12px rgba(0,0,0,0.1)",
+                    overflow: "hidden",
+                    position: "relative", display: "flex", flexDirection: "column"
+                }} */
+
+
+/* style={{
+                             boxSizing: "inherit", boxShadow: "inherit", height: 200, width: 200,
+                            borderRadius: 20, transition: "ease-in-out", boxShadow: "0px 10px 12px rgba(0,0,0,0.1)",
+                        overflow: "hidden", margin: 20, position: "relative", display: "flex", flexDirection: "column"
+                                            }}                 */
+
+.brand{
+  background-color: whitesmoke;
+  height: auto;
+  width: auto;
+  box-sizing: inherit;
+  box-shadow: inherit;
+  border-radius: 20px;
+  transition: ease-in-out;
+  overflow: hidden;
+  margin: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 10px 12px rgba(0,0,0,0.1);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

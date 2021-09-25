@@ -1,0 +1,38 @@
+/* style={{
+                            boxSizing: "inherit", boxShadow: "inherit", height: 400, width: 1000,
+                            borderradius: 50, transition: "ease-in-out", boxShadow: "0px 10px 12px rgba(0,0,0,0.1)",
+                            overflow: "hidden", margin: 20, position: "relative", display: "flex", flexDirection: "column"
+                        }} */
+.version-section{
+    background-color: whitesmoke;
+    box-sizing: inherit;
+    box-shadow: inherit;
+    width: 100%;
+    border-radius: 50px;
+    transition: ease-in-out;
+    box-shadow: 0px 10px 12px rgba(0,0,0,0.1);
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+/* style={{ width: 900, height: 300, paddingLeft: 600, marginTop: -300 }} */
+.banner-img{
+    margin: 20px;
+    width: 80%;
+    height: 70%;
+}
+.price{
+    text-align: start;
+    margin-top: 50px;
+    font-family: sans-serif;
+    padding-left: 80px;
+}
+.price-data{
+    text-align: start;
+    padding-left: 80px;
+    
+}
+
+/* style={{ height: 40 , textAlign:"center"}} */

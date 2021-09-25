@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-container{
+    background-color: whitesmoke;
+    border-radius: 40px;
+    margin-top: 20px;
+    width: 100%;
+}
+/* style={{
+                    boxSizing: "inherit", boxShadow: "inherit", height: 150, width: 150,backgroundColor:"white",borderRadius:10,
+                    transition: "ease-in-out", boxShadow: "20px 10px 12px rgba(0,0,0,0.1)",
+                    overflow: "hidden", margin:20, position: "relative", display: "flex", flexDirection:"column", marginLeft:60
+                }} */
+
+
+.top-brand{
+    box-sizing: border-box;
+    box-shadow: inherit;
+    width: 50%;
+    background-color: white;
+    border-radius: 30px;
+    transition: ease-in-out;
+    box-shadow: 20px 10px 12px rgba(0,0,0,0.1);
+    overflow: hidden;
+    margin: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+
+
